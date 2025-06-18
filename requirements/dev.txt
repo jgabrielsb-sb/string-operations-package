@@ -1,0 +1,6 @@
+# Contains development specific dependencies and import common dependencies
+
+pylint
+flake8
+
+-r commom.txt
