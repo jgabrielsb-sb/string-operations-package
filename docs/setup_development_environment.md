@@ -1,17 +1,27 @@
+## Setup Development Environment
+To contribute to this project and make modifications, you must:
 
----
-
-### 📄 `setup_development_environment.md`
-
-```markdown
-# Set Up Development Environment
-
-Follow the steps below to set up a local development environment for contributing or testing the package.
-
----
-
-## 1️⃣ Clone the Repository
-
+### 1. Clone the Git repository ###
 ```bash
-git clone https://github.com/yourusername/string_operations_package.git
-cd string_operations_package
+git clone https://github.com/jgabrielsb-sb/string-operations-package.git
+```
+
+### 2. Configure a virtual environment ###
+
+#### 2.1. Install a virtual environment ####
+```bash
+python -m venv venv
+```
+
+#### 2.2. Activate  it
+```bash
+source venv/bin/activate
+```
+
+#### 2.3. Install dev dependencies inside it ####
+```bash
+pip install -r requirements/dev.txt
+```
+
+Now you can implement and modify your own functions.
+
