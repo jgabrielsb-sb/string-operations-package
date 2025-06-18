@@ -1,0 +1,5 @@
+0.1
+-----------
+
+Adding utilities functions and tests:
+- remove_all_accents
