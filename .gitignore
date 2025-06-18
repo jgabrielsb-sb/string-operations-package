@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv
+*.log
+
+# MkDocs
+site/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# env
+.env
+

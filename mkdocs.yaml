@@ -1,0 +1,10 @@
+site_name: string_operations_package
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Functions: functions.md
+  - Set up development environment: setup_development_environment.md
+  - About: about.md
+
+theme:
+  name: readthedocs
